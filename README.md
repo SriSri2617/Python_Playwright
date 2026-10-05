@@ -9,8 +9,7 @@
     - Email addresses
     - Monetary values
     - Length measurements
-   
-    Learned how to create and test regular expressions.
+
 
 
 2. User Stories
@@ -26,10 +25,6 @@
         - Reading Daily Standup instructions.
         - Navigating between different sprint days.
         - Reading Sprint Review and Sprint Retrospective information.
-
-    For each user story, a corresponding test scenario was created.
-
-
 
 3. End-to-End Testing with Playwright
 
