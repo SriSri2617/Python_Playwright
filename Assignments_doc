@@ -1,0 +1,102 @@
+Test your answers on https://regex101.com/ 
+
+1a. Which strings are matched by the regular expression: "ab" ?
+    sabotage
+    
+1b. Consider the expression "nisse". What do I write to match both "Nisse", "NISSE" and "nisse"?
+    nisse with i flag (or [nN][iI][sS][sS][eE])
+    
+1c. Which strings are matched by "a*n"?
+    an
+    
+1d. Which strings are matched by "[ae]n" ?
+    inconsequential
+   
+1e. Which strings are matched by "je.+e"?
+    None
+    
+1f. Which strings are matched by "\san?\s"    
+    "    an   na   an   " & "be a darling"
+    
+1e. Write down in your own words what the following expression matches. "Strings that contain -"
+    Lines - I have two lines / Draw a line
+    ^a*ö$ - aaö / aaaö / ö and not test strings - aaöx / xaaö
+    [aeiouyåäö]+ - aeiou / åäö 
+    [123456789]\d* - 12345 / 1 / 1 7 and not - 0123
+    \d{4}-\d{2}-\d{2} - 2026-09-28 (date)
+    
+================================================================================================
+ 
+2a.  a user story which describes that the user should be able to read how to do a "sprint retrospective". 
+        
+        As a Scrum team member, I want to be able to read instructions for conducting a sprint retrospective, 
+        so that the team can evaluate the completed sprint and identify improvements for future sprints.
+        
+        Acceptance criteria:
+        1. Given that I am using agile-helper
+        2. When I select the Sprint Retrospective section
+        3. Then I should see instructions describing how to conduct a sprint retrospective
+       
+================================================================================================
+
+2b. Test scenario for the user story with both implicit and explicit test
+
+    1. Open Agile Helper
+    2. Click the flag for english
+    3. Verify that Agile Helper page is displayed and the text is displayed in english (Explicit)
+    4. Navigate to the "Last" of the sprint
+    5. Verify that the Sprint Retrospective option is visible (Explicit)
+    6. Click the Sprint Retrospective button/link (Explicit)
+    7. Verify that instructions for conducting a Sprint Retrospective are displayed (Explicit)
+    8. Verify that all text is readable and fully visible (Implicit)
+    9. Verify that no error messages appear when opening the Sprint Retrospective section (Implicit)
+    10. Verify that clicking the button loads the correct content and not another Scrum event (Implicit)
+    11. Verify that the page continues to function after viewing the Sprint Retrospective section (Implicit)
+    
+================================================================================================
+
+2. Practicing regex
+
+1a. Write a regex that checks for a length in the string, specified in centimeters:
+"The fish I caught were 55 cm long."    
+        - Syntax to find length with digits and optional spaces -  \d+\s*cm
+     
+1b. To find if there are any 2 lengths 
+        - \d+\s*cm.*\d+\s*cm  (.* any characters in between)
+        
+1c. The lengths should be the same unit.
+"The fish I caught were 55 cm long, so both fit in my 1.23 m long box."
+
+================================================================================================
+
+2. To check a five digits divided into two groups with spaces between them. Example: "123 45"
+        - \d{3}\s\d{2} , ^\d{3}\s\d{2}$ (entire string to be postal code)
+    
+3. Write a regex that matches a date written according to the international standard ISO 8601
+        - \d{4}-\d{2}-\d{2}, ^\d{4}-\d{2}-\d{2}$ (only date and in same format)
+        
+4. Write a regex that matches a monetary value in numbers. Examples of values
+    200 kr, 12.50 kr, 0.35 kr
+        - ^(\d+|\d+\.\d{2})\skr$
+        
+5a. Write a regex that matches an email address (usendarnamn@server.domthan) according to the following incomplete rules.
+   - Usernames can contain letters, numbers, and special characters such as periods and hyphens.
+   - server can contain the same kind of characters
+   - domain can contain letters and numbers
+        - ^[A-Za-z0-9.-]+@[A-Za-z0-9.-]+\.[A-Za-z0-9]+$
+        
+5b. complete email address - ^[A-Za-z0-9.-]+@[A-Za-z0-9.-]+\.[A-Za-z0-9]+$   
+
+================================================================================================
+     
+
+    
+      
+        
+        
+        
+        
+    
+
+        
+               

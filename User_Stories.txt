@@ -1,0 +1,117 @@
+3 Practice user stories
+
+User Story 1 : As a user, I want to view the Agile Helper page, 
+so that I can access information about Agile and Scrum practices.
+
+Scenario:
+    - Navigate to https://lejonmanen.github.io/agile-helper/
+    - Verify that the Agile Helper page loads successfully
+    - Verify that the page title "Agile Helper" is displayed
+    - Verify that Swedish and British flag icon is displayed
+    - Verify that "Vilken dag under sprinten är det?" heading is displayed
+    - Verify that the buttons "Första", "Någonstans mitt i", and "Sista" are visible
+    - Verify that the user can interact with the page
+
+--------------------------------------------------------------------------------------------------
+
+User Story 2 : As a user, I want to view the Agile Helper page in English, 
+so that I can understand the information even if I do not speak Swedish.
+
+Scenario:
+    - Navigate to https://lejonmanen.github.io/agile-helper/
+    - Verify that the British flag icon is displayed
+    - Click the British flag icon
+    - Verify that the page content is translated to English
+    - Verify that the buttons are displayed in English
+    - Verify that the user can still access the sprint information and meeting instructions in English
+    
+--------------------------------------------------------------------------------------------------
+
+User Story 3 : As a user, I want to see instructions for Sprint Planning on the first day of the sprint, 
+so that I know how to prepare the sprint backlog.    
+
+Scenario: 
+    - Navigate to https://lejonmanen.github.io/agile-helper/
+    - Click the "First" button
+    - Verify that "Start off the sprint with Sprint planning" and "Start every day with Daily standup" buttons displayed
+    - Click the "Sprint planning" button
+    - Verify that a dialog appears
+    - Verify that the dialog contains the heading "Sprint planning"
+    - Verify that instructions for planning the sprint are displayed
+    - Click on "Ok we're done.Start the sprint" button
+    - Verify that the dialog disappears
+    - Verify that user remains on the "First day of sprint." page
+     
+--------------------------------------------------------------------------------------------------
+
+User Story 4 : As a user, I want to see instructions for Daily Standup, 
+so that I know what to discuss during the daily meeting.
+
+Scenario: 
+    - Navigate to https://lejonmanen.github.io/agile-helper/
+    - Click the "First" button
+    - Verify that "Start off the sprint with Sprint planning" is displayed
+     - Verify that "Start every day with Daily standup" button is displayed
+    - Click the "Daily standup" button
+    - Verify that a dialog appears
+    - Verify that the dialog contains the heading "Daily standup"
+    - Verify that instructions for standup meeting are displayed
+    - Click the "Start the meeting: 10 minutes" button
+    - Verify that "Time left" counter starts counting down
+    - Click on "Ok we're done!"
+    - Verify that the dialog disappears
+    - Verify that user remains on the "First day of sprint." page
+    - Verify that the "Sprint planning" and "Daily standup" buttons are still displayed.
+    
+--------------------------------------------------------------------------------------------------
+
+User Story 5 : As a user, I want to choose another day in the sprint, 
+so that I can view the activities and meetings that take place on different days of the sprint.
+
+Scenario:
+    - Navigate to https://lejonmanen.github.io/agile-helper/
+    - Click the "First" button
+    - Verify that the "First day of the sprint" view is displayed
+    - Click the "Choose another day" button
+    - Verify that the day selection options are displayed
+    - Verify that the "First", "Somewhere in the middle", and "Last" buttons are displayed
+    - Click the "Somewhere in the middle" button
+    - Verify that the "Any day during the sprint" view is displayed
+    - Click the "Choose another day" button
+    - Click the "Last" button
+    - Verify that the " Final day of sprint" page is displayed
+    
+--------------------------------------------------------------------------------------------------
+
+User Story 6 : As a user, I want to see information about Sprint Review at the end of the sprint, 
+so that I know how to demonstrate completed work to stakeholders.    
+
+Scenario:
+     - Navigate to https://lejonmanen.github.io/agile-helper/
+     - Click the "Last" button
+     - Verify that "Final day of the sprint" page is displayed
+     - Verify that "Start every day with Daily standup" button is displayed
+     - Verify that "Present your work to the product owner during Sprint review" button is displayed
+     - Verify that "End the sprint by evaluating your work in Sprint retrospective" button is displayed
+     - Click the "Sprint review" button
+     - Verify that a dialog appears
+     - Verify that the dialog contains the heading "Sprint review"
+     - Verify that information about presenting completed work is displayed
+     
+--------------------------------------------------------------------------------------------------
+
+User Story 7 : As a user, I want to see instructions for Sprint Retrospective, 
+so that my team can evaluate the sprint and identify improvements for future sprints.
+
+Scenario:
+     - Navigate to https://lejonmanen.github.io/agile-helper/
+     - Click the "Last" button
+     - Click the "Sprint retrospective" button
+     - Verify that a dialog appears
+     - Verify that the dialog contains the heading "Sprint retrospective"
+     - Verify that information about presenting completed work is displayed
+     - Click the "The sprint is complete" button
+     - Verify that dialog disappears
+     - Verify that user remains on the "Final day of sprint." page
+     
+--------------------------------------------------------------------------------------------------     
