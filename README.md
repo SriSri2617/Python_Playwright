@@ -15,8 +15,8 @@
 
 2. User Stories
 
-    Created user stories using the format: As a user, I want ..., so that ... 
-    
+    Created user stories and test scenarios for the Agile Helper web application and automated them using Playwright end-to-end tests.
+
 
     Examples include:
 
