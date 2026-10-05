@@ -95,8 +95,3 @@ def test_sprint_last_day_page(page: Page):
     expect(page.get_by_text(re.compile("Final day of the sprint."))).to_be_visible()
 
 #-----------------------------------------------------------------------------------
-
-    
-    
-    
-    

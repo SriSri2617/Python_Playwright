@@ -141,7 +141,3 @@ def test_sprint_first_day_daily_standup(page: Page):
     expect(sprint_plan_dialog).not_to_be_visible()
    
 #-----------------------------------------------------------------------------------
-    
-
-    
-
